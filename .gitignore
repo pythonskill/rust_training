@@ -1,0 +1,32 @@
+# Ignore build output
+/target/
+
+# Compiled artifacts
+*.rlib
+*.rmeta
+
+# Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Logs and env files
+*.log
+.env
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Misc
+**/Cargo.lock
+
+# Incremental compilation cache
+**/incremental/
+
+# Rustup override files
+rust-toolchain
+rust-toolchain.toml
